@@ -33,11 +33,11 @@ const Time = () => {
 
     return (
         <div className='clock'>
-            <span className='box'>{convertToTwoDigit(time.years)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>YEARS</p></span>
-            <span className='box'>{convertToTwoDigit(time.months)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>MONTHS</p></span>
-            <span className='box'>{convertToTwoDigit(time.hours)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>HOURS</p></span>
-            <span className='box'>{convertToTwoDigit(time.minutes)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>MINUTES</p></span>
-            <span className='box'>{convertToTwoDigit(time.seconds)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>SECONDS</p></span>
+            <span className='box box1'>{convertToTwoDigit(time.years)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>YEARS</p></span>
+            <span className='box box1'>{convertToTwoDigit(time.months)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>MONTHS</p></span>
+            <span className='box box1'>{convertToTwoDigit(time.hours)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>HOURS</p></span>
+            <span className='box box1'>{convertToTwoDigit(time.minutes)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>MINUTES</p></span>
+            <span className='box box1'>{convertToTwoDigit(time.seconds)} <p style={{ fontSize: "15px", margin: "15% 0%", color: "#d13c5c" }}>SECONDS</p></span>
 
         </div>
     );
