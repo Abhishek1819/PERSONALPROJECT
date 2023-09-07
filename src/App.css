@@ -142,7 +142,7 @@ video {
   color: transparent;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .clock {
     text-align: center;
     margin-top: 16rem;
@@ -167,6 +167,15 @@ video {
     /* font-weight: 800; */
     font-size: 3rem;
     /* margin-left: 21%; */
+  }
+
+  .div1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .im{
+    margin: auto;
   }
 }
 
@@ -200,3 +209,6 @@ video {
   display: flex;
   /* background-color: white; */
 }
+
+
+

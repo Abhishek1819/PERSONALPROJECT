@@ -7,7 +7,7 @@ const Videotop = () => {
   return (
     <div className='main'>
       <div className='overlay'></div>
-      <video src={VideoBg} autoPlay loop muted />
+      <video src={VideoBg} autoPlay loop  />
       <div className='content'>
         <h1 className='FontStyles'>Abhi & Isha</h1>
         <br/>
@@ -17,7 +17,7 @@ const Videotop = () => {
           <i className='fa fa-heart text-danger'></i>
           <span className='line'></span>
         </p>
-        <h3>May 3rd, 2016</h3>
+        <h3>May 3rd, 2016</h3> 
         <Time />
       </div>
     </div>

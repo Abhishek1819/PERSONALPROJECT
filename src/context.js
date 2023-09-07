@@ -117,13 +117,7 @@ export class Provider extends Component {
         designation: "https://partydost.com/wp-content/uploads/2021/08/272356589_298512885662506_7763411377632027083_n.jpg",
         message: "MARRY ME",
       },
-      {
-        id: 4,
-        name: "Random guy 4",
-        company: "ABC company",
-        designation: "SDE",
-        message: "He gets things done so quikly",
-      },
+      
     ],
     blogs: [
       {

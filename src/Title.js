@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/App.css";
+// import Image from "../src/asset/pic.JPG"
 
 function Title() {
   const name = "Abhisha";
@@ -20,6 +21,7 @@ function Title() {
           <br/>
           <br/>
           <img
+            // src={Image}
             src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/about1.jpg"
             alt="Abhishek-Giri"
             className="rounded-circle px-5 mx-5 serv"
@@ -44,3 +46,4 @@ function Title() {
 }
 
 export default Title;
+

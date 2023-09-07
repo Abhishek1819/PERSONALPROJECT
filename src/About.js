@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/App.css";
+// import Image from "../src/asset/pic.JPG";
 
 function About() {
   const name = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.";
@@ -20,7 +21,7 @@ function About() {
           </p>
           <br/>
           <br/>
-          <div style={{ display: "flex" }}>
+          <div className="div1" style={{ display: "flex" }}>
             <div className="row-12 row-md-6">
               <h4 className="card-title pt-4">ADITYA GIRI</h4>
               <span className="date">GROOM'S BROTHER</span>
@@ -29,14 +30,15 @@ function About() {
               </p>
             </div>
             <img
+              // src={Image}
               src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/about1.jpg"
               alt="Abhishek-Giri"
-              className="rounded-circle px-3 serv about "
+              className="rounded-circle px-3 serv about im"
             />
             <img
               src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/people1.jpg"
               alt="Abhishek-Giri"
-              className="rounded-circle px-3  serv about "
+              className="rounded-circle px-3  serv about im"
             />
             <div className="row-12 row-md-6">
               <h4 className="card-title pt-4">KRISH RATHI</h4>
@@ -46,7 +48,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div style={{ display: "flex" }}>
+          <div className="div1" style={{ display: "flex" }}>
             <div className="row-12 row-md-6">
               <h4 className="card-title pt-4">MANOJ GIRI</h4>
               <span className="date">GROOM'S FATHER</span>
@@ -57,12 +59,12 @@ function About() {
             <img
               src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/people3.jpg"
               alt="Abhishek-Giri"
-              className="rounded-circle px-3 serv about "
+              className="rounded-circle px-3 serv about im"
             />
             <img
               src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/people4.jpg"
               alt="Abhishek-Giri"
-              className="rounded-circle px-3 serv about "
+              className="rounded-circle px-3 serv about im"
             />
             <div className="row-12 row-md-6">
               <h4 className="card-title pt-4">RAVINDAR RATHI</h4>
@@ -72,7 +74,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div style={{ display: "flex" }}>
+          <div className="div1" style={{ display: "flex" }}>
             <div className="row-12 row-md-6">
               <h4 className="card-title pt-4">MUKTI GIRI</h4>
               <span className="date">GROOM'S MOM</span>
@@ -83,12 +85,12 @@ function About() {
             <img
               src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/gallery-big07.jpg"
               alt="Abhishek-Giri"
-              className="rounded-circle px-3 serv about "
+              className="rounded-circle px-3 serv about im"
             />
             <img
               src="http://www.coffeecreamthemes.com/themes/perfectcouple/wordpress/wp-content/uploads/2014/10/gallery-big08.jpg"
               alt="Abhishek-Giri"
-              className="rounded-circle px-3 serv about "
+              className="rounded-circle px-3 serv about im"
             />
             <div className="row-12 row-md-6">
               <h4 className="card-title pt-4">POONAM RATHI</h4>
