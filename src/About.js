@@ -11,18 +11,20 @@ function About() {
     <div className="container">
       <div className="row text-center align-items-center my-5 py-5">
         <div className="row-12 row-md-6">
-          <h1 className="FontStyle font-weight-light">
-            <span className="FontStyle text-danger">Most Important </span>People
-          </h1>
-          <p>
-            <span className='line1'></span>
-            <i className='fa fa-user text-danger'></i>
-            <span className='line1'></span>
-          </p>
-          <br/>
-          <br/>
+          <div data-aos="slide-down">
+            <h1 className="FontStyle font-weight-light">
+              <span className="FontStyle text-danger">Most Important </span>People
+            </h1>
+            <p>
+              <span className='line1'></span>
+              <i className='fa fa-user text-danger'></i>
+              <span className='line1'></span>
+            </p>
+          </div>
+          <br />
+          <br />
           <div className="div1" style={{ display: "flex" }}>
-            <div className="row-12 row-md-6">
+            <div className="row-12 row-md-6" data-aos="slide-right">
               <h4 className="card-title pt-4">ADITYA GIRI</h4>
               <span className="date">GROOM'S BROTHER</span>
               <p className="font-weight-light pt-3"  >
@@ -40,7 +42,7 @@ function About() {
               alt="Abhishek-Giri"
               className="rounded-circle px-3  serv about im"
             />
-            <div className="row-12 row-md-6">
+            <div className="row-12 row-md-6" data-aos="slide-left">
               <h4 className="card-title pt-4">KRISH RATHI</h4>
               <span className="date">BRIDE'S BROTHER</span>
               <p className="font-weight-light pt-3"  >
@@ -49,7 +51,7 @@ function About() {
             </div>
           </div>
           <div className="div1" style={{ display: "flex" }}>
-            <div className="row-12 row-md-6">
+            <div className="row-12 row-md-6" data-aos="slide-right">
               <h4 className="card-title pt-4">MANOJ GIRI</h4>
               <span className="date">GROOM'S FATHER</span>
               <p className="font-weight-light pt-3"  >
@@ -66,7 +68,7 @@ function About() {
               alt="Abhishek-Giri"
               className="rounded-circle px-3 serv about im"
             />
-            <div className="row-12 row-md-6">
+            <div className="row-12 row-md-6" data-aos="slide-left">
               <h4 className="card-title pt-4">RAVINDAR RATHI</h4>
               <span className="date">BRIDE FATHER</span>
               <p className="font-weight-light pt-3"  >
@@ -75,7 +77,7 @@ function About() {
             </div>
           </div>
           <div className="div1" style={{ display: "flex" }}>
-            <div className="row-12 row-md-6">
+            <div className="row-12 row-md-6" data-aos="slide-right">
               <h4 className="card-title pt-4">MUKTI GIRI</h4>
               <span className="date">GROOM'S MOM</span>
               <p className="font-weight-light pt-3"  >
@@ -92,7 +94,7 @@ function About() {
               alt="Abhishek-Giri"
               className="rounded-circle px-3 serv about im"
             />
-            <div className="row-12 row-md-6">
+            <div className="row-12 row-md-6" data-aos="slide-left">
               <h4 className="card-title pt-4">POONAM RATHI</h4>
               <span className="date">BRIDE'S MOM</span>
               <p className="font-weight-light pt-3"  >

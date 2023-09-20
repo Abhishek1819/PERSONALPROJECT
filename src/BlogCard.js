@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function BlogCard(props) {
   const {  title, excerpt, imageUrl, date } = props.blog;
   return (
-    <div className="card shadow h-100 serv">
+    <div className="card shadow h-100 serv" data-aos="zoom-out-down">
       <img src={imageUrl} alt={title} className="card-img-top" />
       <div className="card-body">
         <h4 className="card-title pt-4">{title}</h4>

@@ -21,7 +21,7 @@ function SkillsSection() {
         }
         return (
           <div className="back w-100">
-            <div className="container text-center py-5">
+            <div className="container text-center py-5" data-aos="slide-up">
               <h1 className="FontStyle font-weight-light">
                 <span className="FontStyle text-dark">Gallery</span> 
               </h1>

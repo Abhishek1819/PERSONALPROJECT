@@ -12,7 +12,7 @@ function RecommendationCard(props) {
 
   return (
     <div className="col-12 col-md-4 ">
-      <div className="card shadow h-100">
+      <div className="card shadow h-100" data-aos="flip-up">
         <div className="card-body serv backimg">
           <h4
             className="card-text text-danger"

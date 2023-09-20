@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ProjectCard(props) {
   const { title, excerpt, imageUrl } = props.project;
   return (
-    <div className="img-fluid rounded-circle px-1 mx-2 serv">
+    <div className="img-fluid rounded-circle px-1 mx-2 serv" data-aos="zoom-in-up">
       <img src={imageUrl} alt={title} className="card-img-top rounded-circle serv" />
       <div className="card-body">
         <h4 className="card-title pt-4">{title}</h4>

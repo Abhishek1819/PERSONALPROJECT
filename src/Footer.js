@@ -8,7 +8,7 @@ function Footer() {
         className="container-fluid text-center"
         style={{ backgroundColor: "black",margin:"-4% 0%" }}
       >
-        <div className="py-5">
+        <div className="py-5" data-aos="slide-left">
           <h2 className="text-light">This not just a website, it's a love💝 of ABhisHA💕</h2>
           <a href="/write-a-recommendation">
             <button className="btn btn-outline-light btn-lg mt-3">
@@ -16,7 +16,7 @@ function Footer() {
             </button>
           </a>
         </div>
-        <div className="row">
+        <div className="row" data-aos="slide-right">
           <div className="col-12 col-md-4 py-3">
             <h5 className="text-info pb-3">More Links</h5>
             <a href="/" className="text-light d-block">

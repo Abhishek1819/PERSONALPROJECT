@@ -8,7 +8,7 @@ const Videotop = () => {
     <div className='main'>
       <div className='overlay'></div>
       <video src={VideoBg} autoPlay loop  />
-      <div className='content'>
+      <div className='content' data-aos="zoom-out">
         <h1 className='FontStyles'>Abhi & Isha</h1>
         <br/>
         <h4 style={{fontSize:"2rem"}}>ARE GETTING COMMITED</h4>

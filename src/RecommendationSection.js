@@ -18,7 +18,7 @@ function RecommendationSection() {
                 />
               ))}
             </div>
-            <div className="d-flex servs border border-dark rounded justify-content-center reads h-25">
+            <div className="d-flex servs border border-dark rounded justify-content-center reads h-25" data-aos="slide-up">
               <p className="text-light my-1 text-decoration-none">
                 <h5>
                   PLEASE CLICK <i className='fa fa-hand-pointer text-light'></i>
