@@ -177,6 +177,11 @@ video {
   .im{
     margin: auto;
   }
+
+  .click {
+    width: auto;
+    margin: 0% 24%;
+  }
 }
 
 /* @media only screen and (max-width: 1900px) {

@@ -28,7 +28,7 @@ function BlogSection() {
                   </div>
                 ))}
               </div>
-              <div className="d-flex servs border border-dark rounded justify-content-center reads" data-aos="slide-up">
+              <div className="d-flex servs border border-dark rounded justify-content-center reads click" data-aos="slide-up">
                 <a href="/allblogs" className="text-light text-center text-decoration-none">
                   <h5>
                     READ MORE

@@ -27,7 +27,7 @@ function ProjectSection() {
                 </div>
               ))}
             </div>
-            <div className="d-flex servs border border-dark rounded py-1 w-25 justify-content-center read" data-aos="slide-up">
+            <div className="d-flex servs border border-dark rounded py-1 justify-content-center read click" data-aos="slide-up" style={{margin:"0% 39%", maxWidth:"22%"}}>
               <a href="/allProjects" className="text-light text-center text-decoration-none">
                 <h5>
                   READ THE WHOLE STORY
